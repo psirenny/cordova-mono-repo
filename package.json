@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-contacts-ios",
+  "name": "cordova-mono-repo",
   "description": "Tools to help manage a mono repo of cordova plugins",
   "version": "1.0.0",
   "author": "Dennis Torres <djtorres0@gmail.com>",

@@ -4,7 +4,7 @@ Tools to help manage a mono repo of cordova plugins
 
 ## Installation
 
-npm i --save-dev cordova-mono-repo-tools
+`npm i --save-dev cordova-mono-repo-tools`
 
 ## Usage
 
@@ -14,7 +14,8 @@ npm i --save-dev cordova-mono-repo-tools
 
     // Install all mono repo plugins in the current working directory
     // as well as any remote plugins they depend on
-    getRepoData('path/to/plugin/repo', (err, repoData) => {
+
+    getRepoData('path/to/repo', (err, repoData) => {
       if (err) return console.error(err);
 
       return asyncEachSeries(repoData.pluginDepIdList,
