@@ -1,0 +1,50 @@
+{
+  "name": "cordova-plugin-contacts-ios",
+  "description": "Tools to help manage a mono repo of cordova plugins",
+  "version": "1.0.0",
+  "author": "Dennis Torres <djtorres0@gmail.com>",
+  "bugs": "https://github.com/psirenny/cordova-mono-repo/issues",
+  "dependencies": {
+    "async": "2.4.1",
+    "lodash": "4.17.4",
+    "toposort": "1.0.3",
+    "xml2js": "0.4.17"
+  },
+  "devDependencies": {
+    "ava": "0.19.1",
+    "babel-cli": "6.24.1",
+    "babel-core": "6.24.1",
+    "babel-eslint": "7.2.3",
+    "babel-plugin-external-helpers": "6.22.0",
+    "babel-plugin-transform-flow-strip-types": "6.22.0",
+    "babel-preset-env": "1.5.1",
+    "babel-preset-es2015": "6.24.1",
+    "cordova": "7.0.1",
+    "eslint": "3.19.0",
+    "eslint-config-airbnb-base": "11.2.0",
+    "eslint-plugin-babel": "4.1.1",
+    "eslint-plugin-flowtype": "2.34.0",
+    "eslint-plugin-import": "2.3.0",
+    "fixpack": "2.3.1",
+    "flow-bin": "0.47.0",
+    "flow-copy-source": "1.1.0",
+    "rollup": "0.42.0",
+    "rollup-plugin-babel": "2.7.1"
+  },
+  "homepage": "https://github.com/psirenny/cordova-mono-repo",
+  "keywords": [
+    "cordova",
+    "mono",
+    "plugin",
+    "repo",
+    "tools"
+  ],
+  "license": "Unlicense",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "repository": "https://github.com/psirenny/cordova-mono-repo",
+  "scripts": {
+    "build": "node build",
+    "test": "ava"
+  }
+}
